@@ -16,3 +16,5 @@ function inputStudentmark(studentmark) {
 
     console.log(`The student's mark is ${studentmark} and the grade is: ${grade}`);
 }
+
+
