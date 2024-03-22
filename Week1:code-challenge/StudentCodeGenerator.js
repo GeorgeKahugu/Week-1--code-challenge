@@ -1,22 +1,25 @@
 
 function inputStudentmark(studentmark){
 
+    let grade;
+
 if(grade>=79 && grade<=100){
-    console.log("A")
+     grade= "A";
 }
 else if(grade>=60 && grade <79){
-    console.log("B")
+    grade = "B";
 }
 else if(grade >=50 && grade <59){
-    console.log("C")
+    grade = "C"
 }
 else if (grade>=40 && grade<49){
-    console.log("D")
+   grade ="D"
 }
-else if(grade <40 && grade >0){
-    console.log("E")
-}
+else if(grade <40 && grade >0) {
+   grade = "E"
 
-console.log (`The student's mark is ${studentmark} is: {grade}`)
 
 }
+console.log(`The student's mark is ${studentmark} and the grade is:${grade}`); 
+}
+
