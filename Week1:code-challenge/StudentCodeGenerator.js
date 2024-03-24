@@ -9,16 +9,16 @@ function inputStudentmark(studentmark) {
 // else if statements
     } else if (studentmark >= 60 && studentmark <=79) {
         grade = "B"
-    } else if (studentmark >= 50 && studentmark <= 59) {
+    } else if (studentmark >= 49 && studentmark <= 59) {
         grade = "C"
-    } else if (studentmark >= 40 && studentmark < 49) {
+    } else if (studentmark >= 40 && studentmark <= 49) {
         grade = "D"
-    } else if (studentmark < 0 || studentmark > 100) {
+    } else if (studentmark <40) {
           grade = "E"
     }
 
     console.log(`The student's mark is ${studentmark} and the grade is: ${grade}`);
 }
-
-console.log(inputStudentmark(60))
+// Input Student Mark:
+console.log(inputStudentmark(50))
 

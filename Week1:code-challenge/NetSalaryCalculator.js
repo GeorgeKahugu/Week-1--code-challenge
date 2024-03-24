@@ -1,3 +1,8 @@
-let test1=function(test){
-    
-}
+let salary;
+let benefits;
+// Tax Rates
+const payRates=[
+
+
+
+]
