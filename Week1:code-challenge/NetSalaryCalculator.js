@@ -42,10 +42,6 @@ function CalculateNetSalary(payRates){
 let netSalary = payRates - CalculateNetSalary(payRates)
 console.log("Your net salary is:", netSalary)
 
-// Calculate NHIFDeductions
-function calculateNHIFDeductions(basicsalary){
-    let NHIFDeductions;
-
     //NHIF Deductions based on income
         if(basicsalary>0 && basicsalary<=5999){
             NHIFDeductions=150;
@@ -79,7 +75,14 @@ function calculateNHIFDeductions(basicsalary){
             NHIFDeductions=1500;
         }else if (basicsalary>= 90000 && basicsalary<=99999){
             NHIFDeductions=1600;
-        }else (basicsalary >=100000)
+        }else (basicsalary >=100000) 
             NHIFDeductions=1700
+        
+            return NHIFDeductions;
+        console.log(calculateNHIFDeductions(100000));    
+    
 
-}
+// // Calculate NHIFDeductions
+// function calculateNHIFDeductions(basicsalary){
+//     let NHIFDeductions;
+// }
