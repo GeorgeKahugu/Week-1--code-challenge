@@ -29,7 +29,16 @@ Installation Instruction;
 
 Live Link;
      https://github.com/GeorgeKahugu/Week-1--code-challenge.git
+     
+Programming Languages used
+     JavaScript
 
+Support and Contact Details
+     https://github.com/GeorgeKahugu
+
+Licence 
+     
+     
 
 
 
