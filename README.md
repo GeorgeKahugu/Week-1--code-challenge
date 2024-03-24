@@ -31,6 +31,12 @@ GitHub
 
 Installation Instruction;
 
+Gitclone git@github.com:GeorgeKahugu/Week-1--code-challenge.git
+
+Live Link;
+
+
+
 
 
       
