@@ -36,3 +36,9 @@ const pensionablepay=0.06
 const AffordableHousingLevy=0.015
 
 // Calculate an Individual's Net Salary
+function CalculateNetSalary(payRates){
+    return basicsalary = 85000
+}
+let netSalary = payRates - CalculateNetSalary(payRates)
+console.log("Your net salary is:", netSalary)
+
