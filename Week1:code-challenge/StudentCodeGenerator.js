@@ -16,7 +16,7 @@ function inputStudentmark(studentmark) {
     } else if (studentmark <40) {
           grade = "E"
     }
-
+// Student Mark is : and the grade is: 
     console.log(`The student's mark is ${studentmark} and the grade is: ${grade}`);
 }
 // Input Student Mark:
