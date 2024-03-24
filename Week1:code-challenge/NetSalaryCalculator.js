@@ -42,3 +42,44 @@ function CalculateNetSalary(payRates){
 let netSalary = payRates - CalculateNetSalary(payRates)
 console.log("Your net salary is:", netSalary)
 
+// Calculate NHIFDeductions
+function calculateNHIFDeductions(basicsalary){
+    let NHIFDeductions;
+
+    //NHIF Deductions based on income
+        if(basicsalary>0 && basicsalary<=5999){
+            NHIFDeductions=150;
+        } else if (basicsalary>=6000 && basicsalary<=7999){
+            NHIFDeductions=300;
+        }else if (basicsalary>=8000 && basicsalary<=11999){
+            NHIFDeductions=400;
+        }else if (basicsalary>=12000 && basicsalary<=14999){
+            NHIFDeductions=500;
+        }else if (basicsalary>= 15000 && basicsalary<=19999){
+            NHIFDeductions=600
+        }else if (basicsalary>= 20000 && basicsalary<=24999){
+            NHIFDeductions=750;
+        }else if (basicsalary>= 25000 && basicsalary<=29999){
+            NHIFDeductions=850;
+        }else if (basicsalary>= 30000 && basicsalary<=34999){
+            NHIFDeductions=900;   
+        }else if (basicsalary>= 35000 && basicsalary<=39999){
+            NHIFDeductions=950;
+        }else if (basicsalary>= 40000 && basicsalary<=44999){
+            NHIFDeductions=1000
+        }else if (basicsalary>= 45000 && basicsalary<=49999){
+            NHIFDeductions=1100;
+        }else if (basicsalary>= 50000 && basicsalary<=59999){
+            NHIFDeductions=1200;
+        }else if (basicsalary>= 60000 && basicsalary<=69999){
+            NHIFDeductions=1300;
+        }else if (basicsalary>= 70000 && basicsalary<=79999){
+            NHIFDeductions=1400;
+        }else if (basicsalary>= 80000 && basicsalary<=89999){
+            NHIFDeductions=1500;
+        }else if (basicsalary>= 90000 && basicsalary<=99999){
+            NHIFDeductions=1600;
+        }else (basicsalary >=100000)
+            NHIFDeductions=1700
+
+}

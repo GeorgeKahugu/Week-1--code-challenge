@@ -21,7 +21,7 @@ function calculateDemeritPoints(speed){
 }
 
 
-console.log (calculateDemeritPoints(100))
+console.log (calculateDemeritPoints(60))
 
 
 
