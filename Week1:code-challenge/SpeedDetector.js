@@ -20,7 +20,6 @@ function calculateDemeritPoints(speed){
     return speed
 }
 
-
 console.log (calculateDemeritPoints(60))
 
 
