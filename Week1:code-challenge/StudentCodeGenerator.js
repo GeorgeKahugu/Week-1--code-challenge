@@ -1,4 +1,5 @@
-// // Inputing Student Marks. Then having an output of the correct grade.
+// // Inputing Student Marks. Then having an output of the correct grade;
+
 // // Input Function
 function inputStudentmark(studentmark) {
     
@@ -16,9 +17,11 @@ function inputStudentmark(studentmark) {
     } else if (studentmark <40) {
           grade = "E"
     }
+
 // Student Mark is : and the grade is: 
     console.log(`The student's mark is ${studentmark} and the grade is: ${grade}`);
 }
+
 // Input Student Mark:
 console.log(inputStudentmark(10))
 
