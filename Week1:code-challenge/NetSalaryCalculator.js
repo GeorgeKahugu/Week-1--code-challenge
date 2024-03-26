@@ -77,7 +77,6 @@ const netSalary = Math.floor(grossSalary-PAYE-NHIFDeductions-pensionablepay)
 
         };
 
-
 }
 const basicSalary=35000;
 const benefits=13000;
